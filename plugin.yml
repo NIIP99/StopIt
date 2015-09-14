@@ -1,0 +1,6 @@
+name: StopIt
+version: 1.0.0
+api: 1.12.0
+main: StopIt\StopIt
+author: deot
+description: StopIt
