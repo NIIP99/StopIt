@@ -1,14 +1,3 @@
-#=====================#
-#> StopIt - Settings <#
-#=====================#
-
-## Change the value below to set default time!
+---
 time: 0
-
-## Time Value Guide ##
-## Dawn: 0
-## Noon: 6000 
-## Evening: 12000 
-## Midnight: 18000
-
-# Plugin by @deotern, Minedox Network
+...

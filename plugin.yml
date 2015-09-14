@@ -1,15 +1,18 @@
 name: StopIt
-version: 1.0.0
+version: 1.0.1
 api: 1.12.0
 main: StopIt\StopIt
 author: deot
 description: StopIt
+# twitter: @deotern
+# Made by deot with <3
+
+commands:
+  deftime:
+    description: Sets server default time
+    permission: stopit.deftime
 
 permissions:
-  stopit:
-    description: "StopIt by deot (Twitter: @deotern)"
-    default: false
-    children:
-      stopit.settime:
-        description: "Set server default time value"
-        default: op
+  stopit.deftime:
+    description: Allow to use set default time command
+    default: op
